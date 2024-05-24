@@ -1,6 +1,3 @@
-import Footer from "@/components/layout/footer";
-import Navbar from "@/components/layout/navbar";
-import Providers from "@/components/providers";
 import { cn } from "@/lib/utils";
 import { della, doodle, nunito, ojuju } from "@/styles/font";
 import "@/styles/global.css";
@@ -8,14 +5,19 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 
+// components
+import Footer from "@/components/layout/footer";
+import Navbar from "@/components/layout/navbar";
+import Providers from "@/components/providers";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://akhamr.me"),
+  // metadataBase: new URL("https://akhamr.me"),
   title: {
-    template: "%s · Akhamr!",
-    default: "It's me, akha!",
+    template: "pares",
+    default: "Welcome to my Porfolio",
   },
   description:
-    "My personal blog and portfolio website built with passion and a lot of stress.",
+    "Portfolio of Pahreza Iqbal Prastowo, a software engineer who loves to build things with code.",
 };
 
 export default function Root({ children }: { children: React.ReactNode }) {

@@ -36,7 +36,7 @@ export default function Navbar() {
               "font-doodle text-xl font-semibold"
             )}
           >
-            Akhamr!
+            Pares!
           </Link>
           <div className="flex">
             <div className="hidden space-x-2 md:flex">

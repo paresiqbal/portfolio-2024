@@ -1,9 +1,13 @@
-import Canvas from "@/components/canvas";
-import { Doodle1, Doodle2 } from "@/components/doodle";
-import MeDark from "@/public/default/me-dark.svg";
-import MeLight from "@/public/default/me-light.svg";
 import Image from "next/image";
 import Link from "next/link";
+
+// components
+import Canvas from "@/components/canvas";
+import { Doodle1, Doodle2 } from "@/components/doodle";
+
+// assets
+import MeDark from "@/public/default/me-dark.svg";
+import MeLight from "@/public/default/me-light.svg";
 
 export default function Main() {
   return (
@@ -28,8 +32,8 @@ export default function Main() {
             &#129300;
           </h1>
           <p className="text-md max-w-[500px] text-center md:text-left md:text-lg">
-            A self-taught programmer based in Semarang. Love to explore anything
-            about data analytics, and web development.
+            A self-taught programmer based in Bengkulu. Love to build things
+            with code.
           </p>
           <p className="text-md max-w-[500px] text-center md:text-left md:text-lg">
             {"Peek my "}
