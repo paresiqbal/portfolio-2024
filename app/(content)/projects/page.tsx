@@ -9,18 +9,19 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Some collection of my past works.",
+  description: "Project i have done.",
 };
 
 export default async function Projects() {
   const filteredProject = projects.sort(
     (a, b) => Number(new Date(b.createdAt)) - Number(new Date(a.createdAt))
   );
+
   return (
     <section className="md:mx-12">
       <div className="space-y-2 md:space-y-4">
         <h1 className="text-4xl md:text-6xl">Projects</h1>
-        <p>Some collection of my past works.</p>
+        <p>Project i have done.</p>
       </div>
       {filteredProject.length ? (
         <div className="mt-4 space-y-6">
