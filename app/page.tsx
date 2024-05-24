@@ -23,9 +23,9 @@ export default function Main() {
         </div>
         <div className="flex flex-col items-center justify-center space-y-4 md:ml-4 md:items-start">
           <h1 className="mt-1 font-doodle text-3xl md:text-4xl">
-            It&apos;s me,
+            Yahaloo,
             <span className="relative mx-1.5">
-              pares.
+              i&apos;m pares.
               <Doodle2 className="absolute -bottom-2 -right-4 hidden w-24 stroke-[#ffd55a]/70 dark:block md:w-28" />
               <Doodle2 className="absolute -bottom-2 -right-4 block w-24 stroke-[#ff85a2]/70 dark:hidden md:w-28" />
             </span>
