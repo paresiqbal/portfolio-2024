@@ -106,17 +106,6 @@ const project: ProjectType[] = [
     source: "https://github.com/akhamr/boti",
     font: "font-della",
   },
-  // {
-  //   title: "Lungsur",
-  //   image: "/projects/lungsur.webp",
-  //   description:
-  //     "Simple OLX-inspired commerce built with PostgreSQL, and Vercel Blob.",
-  //   createdAt: "2024-05-23",
-  //   technology: [next, auth, drizzle, postgre, blob],
-  //   url: "https://lungsur.akhamr.me/",
-  //   source: "https://github.com/akhamr/lungsur",
-  //   font: "font-ojuju uppercase",
-  // },
 ];
 
 export default project;
