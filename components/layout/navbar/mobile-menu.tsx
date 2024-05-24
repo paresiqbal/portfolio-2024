@@ -11,10 +11,6 @@ import { useState } from "react";
 
 const links = [
   {
-    text: "Blog",
-    url: "/blog",
-  },
-  {
     text: "Projects",
     url: "/projects",
   },

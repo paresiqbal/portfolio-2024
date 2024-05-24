@@ -9,10 +9,6 @@ import ThemeToggler from "./theme-toggler";
 
 const links = [
   {
-    text: "Blog",
-    url: "/blog",
-  },
-  {
     text: "Projects",
     url: "/projects",
   },
