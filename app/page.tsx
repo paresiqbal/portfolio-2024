@@ -33,7 +33,7 @@ export default function Main() {
           </h1>
           <p className="text-md max-w-[500px] text-center md:text-left md:text-lg">
             A self-taught programmer based in Bengkulu. Love to build things
-            with code.
+            with code. Right now focusing on web development.
           </p>
           <p className="text-md max-w-[500px] text-center md:text-left md:text-lg">
             {"Peek my "}
