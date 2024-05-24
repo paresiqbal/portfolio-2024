@@ -1,5 +1,4 @@
 import Blob from "@/components/blob";
-import Spotify from "@/components/spotify";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -96,7 +95,7 @@ export default function About() {
             music.
           </p>
         </div>
-        <Spotify />
+
         <div>
           <h1 id="contact">
             <Link href="#contact">Contact</Link>
