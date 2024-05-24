@@ -1,3 +1,4 @@
+// next
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,7 +7,6 @@ import Canvas from "@/components/canvas";
 import { Doodle1, Doodle2 } from "@/components/doodle";
 
 // assets
-import MeLight from "@/public/default/me-light.svg";
 import me from "@/public/default/me.svg";
 
 export default function Main() {
@@ -19,17 +19,17 @@ export default function Main() {
         </div>
         <div className="relative grid w-[350px] place-items-center dark:hidden md:w-[400px]">
           <Image alt="doodle" src={me} priority />
-          <Doodle1 className="absolute bottom-0 stroke-[#a3a3a3]/70" />
+          <Doodle1 className="absolute bottom-0 stroke-[#ff85a2]/70" />
         </div>
         <div className="flex flex-col items-center justify-center space-y-4 md:ml-4 md:items-start">
           <h1 className="mt-1 font-doodle text-3xl md:text-4xl">
             It&apos;s me,
             <span className="relative mx-1.5">
-              akha.
+              pares.
               <Doodle2 className="absolute -bottom-2 -right-4 hidden w-24 stroke-[#ffd55a]/70 dark:block md:w-28" />
-              <Doodle2 className="absolute -bottom-2 -right-4 block w-24 stroke-[#a3a3a3]/70 dark:hidden md:w-28" />
+              <Doodle2 className="absolute -bottom-2 -right-4 block w-24 stroke-[#ff85a2]/70 dark:hidden md:w-28" />
             </span>
-            &#129300;
+            ✌
           </h1>
           <p className="text-md max-w-[500px] text-center md:text-left md:text-lg">
             A self-taught programmer based in Bengkulu. Love to build things
