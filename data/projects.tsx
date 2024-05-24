@@ -19,12 +19,6 @@ const next = {
   url: "https://nextjs.org/",
 };
 
-const mdx = {
-  name: "mdx",
-  color: "bg-amber-600",
-  url: "https://mdxjs.com/",
-};
-
 const tw = {
   name: "tailwindcss",
   color: "bg-sky-600",
@@ -42,22 +36,10 @@ const framer = {
   url: "https://www.framer.com/motion/",
 };
 
-const kv = {
-  name: "KV",
-  color: "bg-indigo-600",
-  url: "https://vercel.com/docs/storage/vercel-kv",
-};
-
-const ai = {
-  name: "openai",
-  color: "bg-teal-600",
-  url: "https://platform.openai.com/",
-};
-
-const spt = {
-  name: "spotify",
+const vue = {
+  name: "Vue",
   color: "bg-green-600",
-  url: "https://developer.spotify.com/",
+  url: "https://vuejs.org/",
 };
 
 const auth = {
@@ -72,39 +54,23 @@ const drizzle = {
   url: "https://orm.drizzle.team/",
 };
 
-const postgre = {
-  name: "postgresql",
-  url: "https://vercel.com/docs/storage/vercel-postgres",
-};
-
-const blob = {
-  name: "blob",
-  color: "bg-lime-600",
-  url: "https://vercel.com/docs/storage/vercel-blob",
+const firebase = {
+  name: "firebase",
+  color: "bg-yellow-600",
+  url: "https://firebase.google.com/",
 };
 
 const project: ProjectType[] = [
   {
-    title: "Akhamr!",
-    image: "/projects/akhamr.webp",
+    title: "Siakad SMK Negeri 2 Rejang Lebong",
+    image: "/projects/siakad.png",
     description:
-      "My personal blog and portfolio website built with Framer Motion, and Spotify API.",
-    createdAt: "2023-08-10",
-    technology: [next, tw, mdx, framer, spt],
-    url: "https://akhamr.me/",
-    source: "https://github.com/akhamr/portfolio",
+      "Siakad SMK Negeri 2 Rejang Lebong, thesis project using the UCD (User Center Design) method.",
+    createdAt: "2022-04",
+    technology: [vue, tw, firebase],
+    url: "https://web-smkn2-rl.vercel.app/",
+    source: "https://github.com/paresiqbal/web-smkn2-rl",
     font: "font-doodle",
-  },
-  {
-    title: "Bot-I.",
-    image: "/projects/boti.webp",
-    description:
-      "An AI-based chatbot built with Next.js, Vercel KV, and OpenAI API.",
-    createdAt: "2024-02-14",
-    technology: [next, shadcn, mdx, auth, kv, ai],
-    url: "https://boti.akhamr.me/",
-    source: "https://github.com/akhamr/boti",
-    font: "font-della",
   },
 ];
 
