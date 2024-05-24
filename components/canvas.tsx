@@ -5,8 +5,8 @@ import { ReactSketchCanvas } from "react-sketch-canvas";
 
 const colorList = [
   "rgba(255, 187, 0, 0.6)",
-  "rgba(0, 255, 187, 0.6)",
-  "rgba(187, 0, 255, 0.6)",
+  "rgba(39, 166, 245, 0.8)",
+  "rgba(245, 40, 145, 0.8)",
 ];
 
 // ! framer-motion fixed bug.
