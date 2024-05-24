@@ -6,19 +6,19 @@ import Canvas from "@/components/canvas";
 import { Doodle1, Doodle2 } from "@/components/doodle";
 
 // assets
-import MeDark from "@/public/default/me-dark.svg";
 import MeLight from "@/public/default/me-light.svg";
+import me from "@/public/default/me.svg";
 
 export default function Main() {
   return (
     <section className="relative flex h-full cursor-pencil items-center justify-center pb-6 dark:cursor-pencil-dark md:w-screen md:pb-0 md:pr-2.5">
       <div className="flex flex-col items-center justify-center md:flex-row md:justify-between">
         <div className="relative hidden w-[350px] place-items-center dark:grid md:w-[400px]">
-          <Image alt="doodle" src={MeDark} priority />
+          <Image alt="doodle" src={me} priority />
           <Doodle1 className="absolute bottom-0 stroke-[#ffd55a]/70" />
         </div>
         <div className="relative grid w-[350px] place-items-center dark:hidden md:w-[400px]">
-          <Image alt="doodle" src={MeLight} priority />
+          <Image alt="doodle" src={me} priority />
           <Doodle1 className="absolute bottom-0 stroke-[#a3a3a3]/70" />
         </div>
         <div className="flex flex-col items-center justify-center space-y-4 md:ml-4 md:items-start">
