@@ -72,6 +72,17 @@ const project: ProjectType[] = [
     source: "https://github.com/paresiqbal/web-smkn2-rl",
     font: "font-doodle",
   },
+  {
+    title: "Jiva",
+    image: "/projects/jiva.png",
+    description:
+      "Jiva, freelance projects for anxiety and depression therapy applications.",
+    createdAt: "2024-02",
+    technology: [vue, tw, firebase],
+    url: "https://jiva.vercel.app/",
+    source: "https://github.com/paresiqbal/jiva",
+    font: "font-doodle",
+  },
 ];
 
 export default project;
