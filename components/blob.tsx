@@ -2,7 +2,7 @@ import { getImage } from "@/lib/hooks/use-placeholder";
 import Image from "next/image";
 
 export default async function Blob() {
-  const src = "/default/me.webp";
+  const src = "/default/me.jpeg";
   const base64 = await getImage(src);
   return (
     <div className="relative -z-10 mx-auto size-80 md:size-96">
