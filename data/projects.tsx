@@ -25,15 +25,21 @@ const tw = {
   url: "https://tailwindcss.com/",
 };
 
+const css = {
+  name: "css",
+  color: "bg-blue-600",
+  url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+};
+
 const shadcn = {
   name: "shadcn/ui",
   url: "https://ui.shadcn.com/",
 };
 
-const framer = {
-  name: "framer",
-  color: "bg-pink-600",
-  url: "https://www.framer.com/motion/",
+const laravel = {
+  name: "laravel",
+  color: "bg-red-600",
+  url: "https://laravel.com/",
 };
 
 const vue = {
@@ -73,6 +79,17 @@ const project: ProjectType[] = [
     font: "font-doodle",
   },
   {
+    title: "Ciptawiratirta",
+    image: "/projects/cwt.png",
+    description:
+      "Ciptawiratirta, creating UI base on design with css and bootstrap.",
+    createdAt: "2023-09",
+    technology: [laravel, css],
+    url: "https://ciptawiratirta.com/",
+    source: "https://github.com/belajardarinol/cwt",
+    font: "font-doodle",
+  },
+  {
     title: "Jiva",
     image: "/projects/jiva.png",
     description:
@@ -89,7 +106,7 @@ const project: ProjectType[] = [
     description:
       "School app, fullstack app create with next js and express js. For check attendance students and manage grades.",
     createdAt: "2024-03",
-    technology: [next, tw, express, auth],
+    technology: [next, tw, express, auth, shadcn],
     url: "https://school-teacher-beta.vercel.app/",
     source: "https://github.com/paresiqbal/school-teacher",
     font: "font-doodle",
