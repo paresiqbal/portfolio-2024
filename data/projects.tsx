@@ -48,10 +48,10 @@ const auth = {
   url: "https://authjs.dev/",
 };
 
-const drizzle = {
-  name: "drizzle",
-  color: "bg-yellow-600",
-  url: "https://orm.drizzle.team/",
+const express = {
+  name: "express",
+  color: "bg-green-600",
+  url: "https://expressjs.com/",
 };
 
 const firebase = {
@@ -81,6 +81,17 @@ const project: ProjectType[] = [
     technology: [vue, tw, firebase],
     url: "https://jiva.vercel.app/",
     source: "https://github.com/paresiqbal/jiva",
+    font: "font-doodle",
+  },
+  {
+    title: "School App",
+    image: "/projects/school.png",
+    description:
+      "School app, fullstack app create with next js and express js. For check attendance students and manage grades.",
+    createdAt: "2024-03",
+    technology: [next, tw, express, auth],
+    url: "https://school-teacher-beta.vercel.app/",
+    source: "https://github.com/paresiqbal/school-teacher",
     font: "font-doodle",
   },
 ];
