@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { della, doodle, nunito, ojuju } from "@/styles/font";
+import { della, doodle, nunito } from "@/styles/font";
 import "@/styles/global.css";
 import type { Metadata } from "next";
 
@@ -20,14 +20,7 @@ export const metadata: Metadata = {
 export default function Root({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={cn(
-          nunito.className,
-          della.variable,
-          doodle.variable,
-          ojuju.variable
-        )}
-      >
+      <body className={cn(nunito.className, della.variable, doodle.variable)}>
         <Providers>
           <Navbar />
           {children}
