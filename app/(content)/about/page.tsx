@@ -5,25 +5,25 @@ import Link from "next/link";
 const socials = [
   {
     name: "Email",
-    url: "mailto:hello@akhamr.me",
+    url: "mailto:thecrowdel@gmail.com",
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/akhamr/",
+    url: "https://linkedin.com/in/pahreza-iqbal-prastowo/",
   },
   {
     name: "Github",
-    url: "https://github.com/akhamr",
+    url: "https://github.com/paresiqbal",
   },
   {
     name: "Instagram",
-    url: "https://instagram.com/akhamrr",
+    url: "https://www.instagram.com/pares_iqbal/",
   },
 ];
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Hello everyone, my name is Akha.",
+  description: "Hello everyone, my name is Pares.",
 };
 
 export default function About() {
@@ -36,63 +36,29 @@ export default function About() {
             <Link href="#about">About</Link>
           </h1>
           <p>
-            Hello, my name is <b>Khamid Muhammad Arrazaq</b> (<b>Akha</b>), an
+            Hello, my name is <b>Pahreza Iqbal Prastowo</b> (<b>Pares</b>), an
             enthusiastic fresh graduate with a strong passion for{" "}
-            <i>data analytics</i> and <i>full-stack development</i>.
+            <i>full-stack web development</i>.
           </p>
           <p>
-            I recently completed my studies in Mathematics at{" "}
+            I recently completed my studies in computer science at{" "}
             <Link
               target="_blank"
-              className="underline"
-              href="https://uns.ac.id/"
+              className="bg-purple-600 underline"
+              href="https://home.amikom.ac.id/"
             >
-              Sebelas Maret University
+              Amikom Yogakarta University
             </Link>
             , where I gained a solid foundation in analytical and programming
             abilities. Throughout my academic journey, I gained hands-on
-            experience in data manipulation, statistical analysis, and data
-            visualization using tools like <b>Python</b>, <b>SQL</b>, and{" "}
-            <b>Tableau</b>.
+            experience in programming and ui design using technologies like{" "}
+            <b>html</b>, <b>css</b>, and <b>javascript</b>.
           </p>
           <p>
             On the other hand, my love for technology and programming led me to
             delve into the world of full-stack development. I am skilled in
             front-end technologies such as <b>Next.js</b> and <b>TailwindCSS</b>
-            , as well as back-end technologies like <b>Laravel</b>.
-          </p>
-          <p>
-            During my time as a student, I had the opportunity to join
-            internship and intensive bootcamp as part of Ministry of Education{" "}
-            <Link
-              target="_blank"
-              className="underline"
-              href="https://kampusmerdeka.kemdikbud.go.id/"
-            >
-              program
-            </Link>
-            , such as junior web developer intern at{" "}
-            <Link
-              target="_blank"
-              className="underline"
-              href="https://www.tigaserangkai.com/"
-            >
-              PT. Tiga Serangkai
-            </Link>
-            , and data analysis participant at{" "}
-            <Link
-              target="_blank"
-              className="underline"
-              href="https://www.anakbangsabisa.org/generasi-gigih/"
-            >
-              Generasi Gigih 2.0
-            </Link>
-            . These experiences allowed me to expand my knowledge, and gained
-            proficiency in data analytics and web development.
-          </p>
-          <p>
-            Outside of programming thingy, I love playing games and listening
-            music.
+            , as well as back-end technologies like <b>Express JS</b>.
           </p>
         </div>
 
@@ -121,7 +87,7 @@ export default function About() {
             <Link
               target="_blank"
               className="underline"
-              href="https://drive.google.com/file/d/1j57WTKkaJFEucTQEhl7qb5ZH2zPcwsT9/view?usp=sharing"
+              href="https://drive.google.com/file/d/15wuMtmAlahffkKQbOsHWQbM5j5pEdRZc/view?usp=drive_link"
             >
               here
             </Link>
